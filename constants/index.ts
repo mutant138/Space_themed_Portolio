@@ -60,12 +60,6 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Stripe Payment",
-      Image: "/stripe.webp",
-      width: 80,
-      height: 80,
-    },
-    {
       skill_name: "Node js",
       Image: "/node-js.png",
       width: 80,
@@ -82,16 +76,19 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
-    },
-    {
-      name: "Facebook",
-      src: "/facebook.svg",
-    },
-    {
       name: "Instagram",
+      src: "/instagram.svg",
+      href: "https://www.instagram.com/udhayapower/"
+    },
+    {
+      name: "X",
+      src: "/Logo_of_Twitter.webp",
+      href: "https://x.com/Udhaya138"
+    },
+    {
+      name: "Discord",
       src: "/discord.svg",
+      href: "https://discordapp.com/users/745197664240664577/"
     },
   ];
   
@@ -123,8 +120,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Material UI",
-      Image: "/mui.png",
+      skill_name: "Aceternity UI",
+      Image: "/ace.webp",
       width: 80,
       height: 80,
     },
@@ -186,8 +183,8 @@ export const Skill_data = [
       height: 55,
     },
     {
-      skill_name: "Postger SQL",
-      Image: "/postger.png",
+      skill_name: "Supabase",
+      Image: "/supa.webp",
       width: 70,
       height: 70,
     },
@@ -198,8 +195,8 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "Prisma",
-      Image: "/prisma.webp",
+      skill_name: "NPM",
+      Image: "/npm-icon.webp",
       width: 70,
       height: 70,
     },
@@ -219,8 +216,8 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
+      skill_name: "Flutterflow",
+      Image: "/flo.webp",
       width: 70,
       height: 70,
     },

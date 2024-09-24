@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-
 import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
 import Image from "next/image";
@@ -44,11 +43,6 @@ const Encryption = () => {
           <h1 className="Welcome-text text-[12px]">Encryption</h1>
         </div>
       </div>
-      <div className="absolute z-[20] bottom-[10px] px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
-          Secure your data with end-to-end encryption
-        </div>
-      </div>
 
       <div className="w-full flex items-start justify-center absolute">
         <video
@@ -60,6 +54,18 @@ const Encryption = () => {
           className="w-full h-auto"
           src="/encryption.webm/"
         />
+      </div>
+
+      <div className="absolute bottom-0 w-full ">
+        <motion.div
+          animate={{ x: ["100%", "-100%"] }} 
+          transition={{ repeat: Infinity, duration: 20, ease: "linear" }} 
+          className="whitespace-nowrap text-gray-200 text-center text-sm py-2"
+        >
+          <span className="mx-10">🚀 Leetcode 150+ DSA problems solved and secured 13000+ hacos in HackerRank!</span>
+          <span className="mx-10">🔒 Participated #geekstreak2024 21 Days POTD Challenge Powered By Deutsche Bank!</span>
+          <span className="mx-10">💡 Mentored nearly 30 freshmen and sophomores!</span>
+        </motion.div>
       </div>
     </div>
   );

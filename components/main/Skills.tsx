@@ -8,16 +8,16 @@ import {
 import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";
 import SkillText from "../sub/SkillText";
+import DevCard from "./DevCard";
 
 const Skills = () => {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-20"
+      className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-15 py-20"
       style={{ transform: "scale(0.9" }}
     >
       <SkillText />
-
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Skill_data.map((image, index) => (
           <SkillDataProvider
@@ -88,6 +88,8 @@ const Skills = () => {
           />
         </div>
       </div>
+      <DevCard />
+
     </section>
   );
 };
